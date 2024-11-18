@@ -16,8 +16,7 @@ Fig.3 Loss damping. Left: examples of loss damping functions with different $\de
 
 # 3.1 Results on two Fine-grained Datasets
 We conducted extensive experiments on two fine-grained datasets, i.e., Stanford Cars and Aircraft, with a # Symmetric noise ratio of {20%. 40% }and Asymmetric noise ratios of {10%, 30%}.
-
-![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/a118c600-06b5-4428-bc71-60ba202ff2ff) ![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/411c86c6-7f4c-4acd-b7a2-0ad4452849e0)
+![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/a118c600-06b5-4428-bc71-60ba202ff2ff)(https://github.com/GilalNauman/CYFLOD/assets/62802429/411c86c6-7f4c-4acd-b7a2-0ad4452849e0)
 # 3.2 Food-101
 ![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/ab815fff-9634-43b9-b4a9-3ee386b9dd36)
 ![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/b97981e3-9d66-4bc6-830b-0721f527dad7)
