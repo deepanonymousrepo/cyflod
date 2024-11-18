@@ -1,6 +1,6 @@
 # CYFLOD: Cyclic Filtering and Loss Damping for Combating Noisy Labels in Fine-grained Visual Classification
 # 1.  Challenges in LNL
-![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/e1bad289-8e99-4f8c-aa8c-fbf52090e441)
+![image](https://github.com/user-attachments/assets/766655ce-f586-42ad-843c-abfa233ef62a)
 Fig.1 Top: blue rectangles highlight random noise caused by mislabeled classes on the generic CIFAR-10 dataset (left) and on the fine-grained Stanford Cars dataset (right). Bottom: red rectangles highlight dependent noise arising from the confusion and similarity between
 classes like "deer" and "dog" for the generic CIFAR-10 dataset (left), and the inter-class overlap between closely related vehicles in the fine-grained Stanford Cars dataset (right). 
 # 2. CYFLOD Overview
