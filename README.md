@@ -1,21 +1,27 @@
 # CYFLOD: Cyclic Filtering and Loss Damping for Combating Noisy Labels in Fine-grained Visual Classification
 # 1.  Challenges in LNL
-![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/e1bad289-8e99-4f8c-aa8c-fbf52090e441)
-Fig.1 Top: blue rectangles highlight random noise caused by mislabeled classes on the generic CIFAR-10 dataset (left) and on the fine-grained Stanford Cars dataset (right). Bottom: red rectangles highlight dependent noise arising from the confusion and similarity between
-classes like "deer" and "dog" for the generic CIFAR-10 dataset (left), and the inter-class overlap between closely related vehicles in the fine-grained Stanford Cars dataset (right). 
+![image](https://github.com/user-attachments/assets/21160c7c-c904-42db-9b22-7aebe21102e2)
+Fig.1 LNL Challenges. Top: random noise due to mislabeled classes (blue rectangles) in the generic CIFAR-10 (left) and the fine-grained Stanford Cars (right) data sets. Bottom: dependent noise due to confusion of classes like ``deer'' and ``dog'' (red rectangles) for the generic CIFAR-10 and inter-class overlap between similar vehicles in the fine-grained Standford Cars (right) data sets.
 # 2. CYFLOD Overview
-![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/4235f374-cdb6-4ea4-96f9-af87a753fd8f)
-Fig.2 CYFLOD Training Overview: The proposed training scheme starts from the full noisy dataset. We feed the data to the model and train the model using transfer learning: a cyclic cleansing process integrated with a loss damping iteratively removes the noisy samples.
+![image](https://github.com/user-attachments/assets/02fc95f0-ee93-4cc5-a51a-7a361f499e9f)
+Fig.2 CYFLOD Training Overview: he proposed training scheme starts with the full, noisy data set. We feed the data to the model and
+train the model using transfer learning: a cyclic cleansing process combined with a loss damping iteratively removes the noisy samples.
 
 
-![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/4b928e2d-07ed-4325-8e2e-39655081b949) ![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/c7754140-d1dc-411c-821e-2f868f9acb6e)
+<p align="center">
+  <img src="![image](https://github.com/user-attachments/assets/34b787c6-f8f1-4b88-a7ae-a5b4ce1db013)" alt="Image 1" width="200"/>
+  <img src="![image](https://github.com/user-attachments/assets/34b787c6-f8f1-4b88-a7ae-a5b4ce1db013)" alt="Image 2" width="200"/>
+  <img src="p![image](https://github.com/user-attachments/assets/34b787c6-f8f1-4b88-a7ae-a5b4ce1db013)" alt="Image 3" width="200"/>
+</p>
+
 Fig.3 Loss damping. Left: examples of loss damping functions with different $\delta$ values. Right: effect of loss damping on cross-entropy loss.
 # 3. Results
+
 ![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/677e3b0e-3288-414a-a176-6753393f219e)
 
 # 3.1 Results on two Fine-grained Datasets
 We conducted extensive experiments on two fine-grained datasets, i.e., Stanford Cars and Aircraft, with a # Symmetric noise ratio of {20%. 40% }and Asymmetric noise ratios of {10%, 30%}.
-![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/a118c600-06b5-4428-bc71-60ba202ff2ff) ![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/411c86c6-7f4c-4acd-b7a2-0ad4452849e0)
+![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/a118c600-06b5-4428-bc71-60ba202ff2ff)(https://github.com/GilalNauman/CYFLOD/assets/62802429/411c86c6-7f4c-4acd-b7a2-0ad4452849e0)
 # 3.2 Food-101
 ![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/ab815fff-9634-43b9-b4a9-3ee386b9dd36)
 ![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/b97981e3-9d66-4bc6-830b-0721f527dad7)
