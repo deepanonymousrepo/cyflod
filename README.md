@@ -6,13 +6,15 @@ Fig.1 LNL Challenges. Top: random noise due to mislabeled classes (blue rectangl
 ![image](https://github.com/user-attachments/assets/02fc95f0-ee93-4cc5-a51a-7a361f499e9f)
 Fig.2 CYFLOD Training Overview: he proposed training scheme starts with the full, noisy data set. We feed the data to the model and
 train the model using transfer learning: a cyclic cleansing process combined with a loss damping iteratively removes the noisy samples.
+| ![Image 1](./fig/loss-damper.png) | ![Image 2](./fig/cross-entropy-damped.png) | ![Image 3](./fig/gce-damped.png) |
+|------------------------------|------------------------------|------------------------------|
 
 
-<p align="center">
+
   <img src="![image](https://github.com/user-attachments/assets/34b787c6-f8f1-4b88-a7ae-a5b4ce1db013)" alt="Image 1" width="200"/>
   <img src="![image](https://github.com/user-attachments/assets/34b787c6-f8f1-4b88-a7ae-a5b4ce1db013)" alt="Image 2" width="200"/>
   <img src="p![image](https://github.com/user-attachments/assets/34b787c6-f8f1-4b88-a7ae-a5b4ce1db013)" alt="Image 3" width="200"/>
-</p>
+
 
 Fig.3 Loss damping. Left: examples of loss damping functions with different $\delta$ values. Right: effect of loss damping on cross-entropy loss.
 # 3. Results
