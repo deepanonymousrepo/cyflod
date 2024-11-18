@@ -8,7 +8,11 @@ Fig.2 CYFLOD Training Overview: he proposed training scheme starts with the full
 train the model using transfer learning: a cyclic cleansing process combined with a loss damping iteratively removes the noisy samples.
 
 
-![image](https://github.com/user-attachments/assets/34b787c6-f8f1-4b88-a7ae-a5b4ce1db013)(https://github.com/user-attachments/assets/e72e1517-1bd0-4704-9fca-a793c7c288e9)
+<p align="center">
+  <img src="![image](https://github.com/user-attachments/assets/34b787c6-f8f1-4b88-a7ae-a5b4ce1db013)" alt="Image 1" width="200"/>
+  <img src="![image](https://github.com/user-attachments/assets/34b787c6-f8f1-4b88-a7ae-a5b4ce1db013)" alt="Image 2" width="200"/>
+  <img src="p![image](https://github.com/user-attachments/assets/34b787c6-f8f1-4b88-a7ae-a5b4ce1db013)" alt="Image 3" width="200"/>
+</p>
 
 Fig.3 Loss damping. Left: examples of loss damping functions with different $\delta$ values. Right: effect of loss damping on cross-entropy loss.
 # 3. Results
