@@ -18,7 +18,37 @@ Fig.3 Loss damping. Left: examples of loss damping functions with different $\de
 
 # 3.1 Results on two Fine-grained Datasets
 We conducted extensive experiments on two fine-grained datasets, i.e., Stanford Cars and Aircraft, with a # Symmetric noise ratio of {20%. 40% }and Asymmetric noise ratios of {10%, 30%}.
-![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/a118c600-06b5-4428-bc71-60ba202ff2ff)(https://github.com/GilalNauman/CYFLOD/assets/62802429/411c86c6-7f4c-4acd-b7a2-0ad4452849e0)
+
+### Symmetric Noise
+
+| **Dataset**      | **Method**                                                   | **Sym. (20%)** | **Sym. (40%)** |
+|-------------------|--------------------------------------------------------------|----------------|----------------|
+| **Stanford Cars** | CE+SNSCL                                                    | 83.24          | 76.72          |
+|                   | GCE+SNSCL                                                   | 73.78          | 58.11          |
+|                   | SCE+SNSCL                                                   | 82.58          | 79.07          |
+|                   | DivideMix+SNSCL                                             | 86.29          | 80.09          |
+|                   | ![CYFLOD](https://img.shields.io/badge/CYFLOD-blue) (RCE + δ = 0.5) | **90.46**       | **84.79**       |
+| **Aircraft**      | CE+SNSCL                                                    | 76.45          | 70.48          |
+|                   | GCE+SNSCL                                                   | 72.67          | 64.70          |
+|                   | SYM+SNSCL                                                   | 79.64          | 74.02          |
+|                   | DivideMix+SNSCL                                             | 82.31          | 80.11          |
+|                   | ![CYFLOD](https://img.shields.io/badge/CYFLOD-blue) (GCE + δ = 0.25) | **88.74**       | **83.19**       |
+
+### Asymmetric Noise
+
+| **Dataset**      | **Method**                                                   | **Asym. (10%)** | **Asym. (30%)** |
+|-------------------|--------------------------------------------------------------|-----------------|-----------------|
+| **Stanford Cars** | CE+SNSCL                                                    | 83.73           | 70.04           |
+|                   | GCE+SNSCL                                                   | 80.33           | 64.64           |
+|                   | SYM+SNSCL                                                   | 83.84           | 74.45           |
+|                   | DivideMix+SNSCL                                             | 88.18           | 81.20           |
+|                   | ![CYFLOD](https://img.shields.io/badge/CYFLOD-blue) (RCE + δ = 0.5) | **90.28**        | **82.35**        |
+| **Aircraft**      | CE+SNSCL                                                    | 78.28           | 65.44           |
+|                   | GCE+SNSCL                                                   | 73.85           | 63.34           |
+|                   | SYM+SNSCL                                                   | 78.34           | 71.13           |
+|                   | DivideMix+SNSCL                                             | 84.17           | 80.55           |
+|                   | ![CYFLOD](https://img.shields.io/badge/CYFLOD-blue) (GCE + δ = 0.25) | **88.32**        | **76.50**        |
+
 # 3.2 Food-101
 ![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/ab815fff-9634-43b9-b4a9-3ee386b9dd36)
 ![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/b97981e3-9d66-4bc6-830b-0721f527dad7)
