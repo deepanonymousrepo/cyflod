@@ -110,11 +110,11 @@ Table 6. CIFAR-10 F1 Score Comparison for CYFLOD and Recent Methods with Symmetr
 |------------------------------------|-------------------------|-------------------------|
 | Avg. Encoder[[Ref]](https://people.csail.mit.edu/danielzoran/EPLLICCVCameraReady.pdf)                       | 94.1 ± 0.14            | 85.4 ± 0.19            |
 | AUM[[Ref]](https://arxiv.org/pdf/2001.10528)                                | 75.4 ± 0.22            | 46.4 ± 0.30            |
-| CL[[Ref]]()                                 | 88.7 ± 0.56            | 91.9 ± 0.12            |
-| CORES[[Ref]]()                              | 92.9 ± 0.17            | 26.7 ± 0.44            |
-| SIMIFEAT-V[[Ref]]()                         | **94.6 ± 0.06**         | 84.7 ± 0.17            |
-| SIMIFEAT-R[[Ref]]()                         | 92.9 ± 1.84            | 84.0 ± 0.13            |
-| DynaCor[[Ref]]()                            | 93.6 ± 0.18            | 94.2 ± 0.45            |
+| CL[[Ref]](https://arxiv.org/pdf/1911.00068)                                 | 88.7 ± 0.56            | 91.9 ± 0.12            |
+| CORES[[Ref]](https://arxiv.org/pdf/2010.02347)                              | 92.9 ± 0.17            | 26.7 ± 0.44            |
+| SIMIFEAT-V[[Ref]](https://arxiv.org/pdf/2110.06283)                         | **94.6 ± 0.06**         | 84.7 ± 0.17            |
+| SIMIFEAT-R[[Ref]](https://arxiv.org/pdf/2110.06283)                         | 92.9 ± 1.84            | 84.0 ± 0.13            |
+| DynaCor[[Ref]](https://arxiv.org/pdf/2405.19902)                            | 93.6 ± 0.18            | 94.2 ± 0.45            |
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (EfficientNet-B4+CE + δ=0.25) | 93.66                  | **96.21**              |
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (EfficientNet-B4+MAE + δ=0.25) | **95.71**              | **96.31**              |
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (EfficientNet-B4+RCE + δ=0.25) | **95.56**              | **96.81**              |
