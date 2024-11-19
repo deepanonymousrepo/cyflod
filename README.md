@@ -105,7 +105,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (RCE + δ = 0.25) | **96.71**       | **92.25**       | **95.23**        |
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (MAE + δ = 0.25) | **96.57**       | **91.86**       | **95.96**        |
 
-#Table 6. CIFAR-10 F1 Score Comparison for CYFLOD and Recent Methods with Symmetric (60%) and Asymmetric (30%) Noise
+### Table 6. CIFAR-10 F1 Score Comparison for CYFLOD and Recent Methods with Symmetric (60%) and Asymmetric (30%) Noise
 
 | **Noise Type**                     | **Sym. (60%)**          | **Asym. (30%)**         |
 |------------------------------------|-------------------------|-------------------------|
