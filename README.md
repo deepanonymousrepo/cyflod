@@ -30,7 +30,7 @@ Fig.3 Loss damping. Left: examples of loss damping functions with different $\de
 # 3.1 Results on two Fine-grained Datasets
 We conducted extensive experiments on two fine-grained datasets, i.e., Stanford Cars and Aircraft, with a # Symmetric noise ratio of {20%. 40% }and Asymmetric noise ratios of {10%, 30%}.
 
-### Test accuracy comparison (\%) with recent SOTA SNSCL[[Ref]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wei_Fine-Grained_Classification_With_Noisy_Labels_CVPR_2023_paper.pdf) on Stanford Cars, and Aircraft datasets, for both \textit{symmetric} and \textit{asymmetric} label noise at two different ratios.
+### Test accuracy comparison (\%) with recent SOTA SNSCL[[Ref]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wei_Fine-Grained_Classification_With_Noisy_Labels_CVPR_2023_paper.pdf) on Stanford Cars, and Aircraft datasets, for both **symmetric** and **asymmetric** label noise at two different ratios.
 
 | **Dataset**      | **Method**                                                   | **Sym. (20%)** | **Sym. (40%)** |
 |-------------------|--------------------------------------------------------------|----------------|----------------|
