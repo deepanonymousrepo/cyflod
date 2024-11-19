@@ -6,7 +6,7 @@ Fig.1 LNL Challenges. Top: random noise due to mislabeled classes (blue rectangl
 ![image](https://github.com/user-attachments/assets/02fc95f0-ee93-4cc5-a51a-7a361f499e9f)
 Fig.2 CYFLOD Training Overview: he proposed training scheme starts with the full, noisy data set. We feed the data to the model and
 train the model using transfer learning: a cyclic cleansing process combined with a loss damping iteratively removes the noisy samples.
-| ![Image 1](./fig/loss-damper.png) | ![Image 2](./fig/cross-entropy-damped.png) | ![Image 3](./fig/gce-damped.png) |
+| ![Image 1](./figs/loss-damper.png) | ![Image 2](./figs/cross-entropy-damped.png) | ![Image 3](./figs/gce-damped.png) |
 |------------------------------|------------------------------|------------------------------|
 
 
