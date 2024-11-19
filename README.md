@@ -94,6 +94,11 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 |                     | MAE              | 83.05       | 60.28       | **84.45** (+1.40)      | **84.74** (+1.69)      | **62.13** (+1.85)      | **62.67** (+2.39)      |
 
 
+| ![Image 2](./figs/sym_cars_aircrafts_baseline_vs_cyflod.png) | 
+|--------------------------------------------------------------|
+
+
+
 # 4.2 CIFAR-10
 ### Table 5. CIFAR-10 Accuracy (%) Comparison with SOTA Methods for Symmetric and Asymmetric Label Noise
 
