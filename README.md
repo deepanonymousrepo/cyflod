@@ -161,7 +161,8 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 # 4. t-SNE Visualization
 **Figure 7. t-SNE Visualizations under 50\% symmetric Noise: Feature embeddings of the CIFAR-10 data set. This visualization showcases the clustering of classes and the improved discriminative feature learning when trained with the CYFLOD strategy.**
 
-![Image 2](./figs/![Image 2](./figs/asym_cars_aircrafts_baseline_vs_cyflod.png)
+![Image 2](./figs/![Image 2](./figs/tsne_vis_noise_rate_50_sym.png)
+![Image 2](./figs/![Image 2](./figs/tsne_vis_noise_ratio_80_sym.png)
 
 
 # 5. How to Run the code ....
