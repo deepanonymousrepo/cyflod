@@ -94,12 +94,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 |                     | MAE              | 83.05       | 60.28       | **84.45** (+1.40)      | **84.74** (+1.69)      | **62.13** (+1.85)      | **62.67** (+2.39)      |
 
 
-
-
-# 3.2 Food-101
-
-
-# 4.3 CIFAR-10
+# 4.2 CIFAR-10
 ### Table 5. CIFAR-10 Accuracy (%) Comparison with SOTA Methods for Symmetric and Asymmetric Label Noise
 
 | **Methods**                         | **Sym. (50%)** | **Sym. (80%)** | **Asym. (40%)** |
@@ -126,6 +121,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (EfficientNet-B4+RCE + δ=0.25) | **95.56**              | **96.81**              |
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (ResNet-34+RCE + δ=0.25)       | 94.15                  | 93.80                  |
 
+# 3.2 Food-101
 
 # 5. How to Run the code ....
 PyTorch Implementation of CYFLOD
