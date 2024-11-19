@@ -1,15 +1,15 @@
 # CYFLOD: Cyclic Filtering and Loss Damping for Combating Noisy Labels in Fine-grained Visual Classification
 # 1.  Challenges in LNL
 ![image](https://github.com/user-attachments/assets/21160c7c-c904-42db-9b22-7aebe21102e2)
-Fig.1 LNL Challenges. Top: random noise due to mislabeled classes (blue rectangles) in the generic CIFAR-10 (left) and the fine-grained Stanford Cars (right) data sets. Bottom: dependent noise due to confusion of classes like ``deer'' and ``dog'' (red rectangles) for the generic CIFAR-10 and inter-class overlap between similar vehicles in the fine-grained Standford Cars (right) data sets.
+**Figure 1. LNL Challenges. Top: random noise due to mislabeled classes (blue rectangles) in the generic CIFAR-10 (left) and the fine-grained Stanford Cars (right) data sets. Bottom: dependent noise due to confusion of classes like ``deer'' and ``dog'' (red rectangles) for the generic CIFAR-10 and inter-class overlap between similar vehicles in the fine-grained Standford Cars (right) data sets.**
 # 2. CYFLOD Overview
 ![image](https://github.com/user-attachments/assets/02fc95f0-ee93-4cc5-a51a-7a361f499e9f)
-Fig.2 CYFLOD Training Overview: he proposed training scheme starts with the full, noisy data set. We feed the data to the model and
-train the model using transfer learning: a cyclic cleansing process combined with a loss damping iteratively removes the noisy samples.
+
+**Figure 2. CYFLOD Training Overview: he proposed training scheme starts with the full, noisy data set. We feed the data to the model and train the model using transfer learning: a cyclic cleansing process combined with a loss damping iteratively removes the noisy samples.**
 | ![Image 1](./figs/loss-damper.png) | ![Image 2](./figs/cross-entropy-damped.png) | ![Image 3](./figs/gce-damped.png) |
 |------------------------------|------------------------------|------------------------------|
 
-Fig.3 Loss damping. Left: examples of loss damping functions with different $\delta$ values. Right: effect of loss damping on cross-entropy loss.
+**Figure 3. Loss damping. Left: examples of loss damping functions with different $\delta$ values. Right: effect of loss damping on cross-entropy loss.**
 # 3. Results
 
 ### Table 1. Data sets used in this study
@@ -22,9 +22,13 @@ Fig.3 Loss damping. Left: examples of loss damping functions with different $\de
 | Food-101 [[Ref]](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/) | Real-world Noisy     | 101,000      | 101     | 75,750 | 25,250 |
 
 
+**Figure 4. Test Accuracy (%) by Data Set. Left: CYFLOD vs. prior art, including the SOTA framework SNSCL [65], on the fine-grained
+and noisy dataset Food-101 (noise ratio η ≈ 20%). Center: baseline vs. CYFLOD across different loss functions (CE, SCE, RCE, GCE,
+MAE), illustrating accuracy variations on Stanford Cars and Aircraft datasets, symmetric noise η = {20%, 40%} and δ = {0.25, 0.50}.
+Right: Same baseline vs. CYFLOD, same losses, and same δ values, but for asymmetric noise η = {10%, 30%}.**
+
 | ![Image 1](./figs/food-101-radar.png) | ![Image 2](./figs/sym_cars_aircrafts_baseline_vs_cyflod.png) | ![Image 3](./figs/asym_cars_aircrafts_baseline_vs_cyflod.png) |
 |------------------------------|------------------------------|------------------------------|
-
 
 
 # 3.1 Results on two Fine-grained Datasets
@@ -148,9 +152,24 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 | CE+SNSCL                             | 85.44           |
 | DivideMix                            | 85.88           |
 | DivideMix+SNSCL                      | 86.40           |
+
+
+
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (SCE + δ = 0.5) | **88.50**       |
 
-
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width = 0.99\textwidth]{cvpr-2025/figs/sym_cars_aircrafts_baseline_vs_cyflod.png}
+\caption{\textbf{Baseline vs CLYLOD.} Comparison of Baseline vs CYFLOD on Stanford Cars and Aircraft datasets under Symmetric noise settings ($\eta=20\%$ and $\eta=40\%$).}
+\label{fig:sym_cars_air}
+\end{figure*}
+%
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width = 0.99\textwidth]{cvpr-2025/figs/asym_cars_aircrafts_baseline_vs_cyflod.png}
+\caption{\textbf{Baseline vs CLYLOD.} Comparison of Baseline vs CYFLOD on Stanford Cars and Aircraft datasets under asymmetric noise settings($\eta=10\%$ and $\eta=30\%$).}
+\label{fig:asym_cars_air}
+\end{figure*}
 
 # 5. How to Run the code ....
 PyTorch Implementation of CYFLOD
