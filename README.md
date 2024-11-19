@@ -12,7 +12,7 @@ train the model using transfer learning: a cyclic cleansing process combined wit
 Fig.3 Loss damping. Left: examples of loss damping functions with different $\delta$ values. Right: effect of loss damping on cross-entropy loss.
 # 3. Results
 
-### Table: Data sets used in this study
+### Table 1. Data sets used in this study
 
 | Data Set                        | Type                  | Total Images | Classes | Train  | Test   |
 |---------------------------------|-----------------------|--------------|---------|--------|--------|
@@ -30,8 +30,10 @@ Fig.3 Loss damping. Left: examples of loss damping functions with different $\de
 # 3.1 Results on two Fine-grained Datasets
 We conducted extensive experiments on two fine-grained datasets, i.e., Stanford Cars and Aircraft, with a # Symmetric noise ratio of {20%. 40% }and Asymmetric noise ratios of {10%, 30%}.
 
-### Test accuracy comparison (\%) with recent SOTA SNSCL[[Ref]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wei_Fine-Grained_Classification_With_Noisy_Labels_CVPR_2023_paper.pdf) on Stanford Cars, and Aircraft datasets, for both **symmetric** and **asymmetric** label noise at two different ratios.
+### Table 2. Test accuracy comparison (\%) with recent SOTA SNSCL[[Ref]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wei_Fine-Grained_Classification_With_Noisy_Labels_CVPR_2023_paper.pdf) on Stanford Cars, and Aircraft datasets, for both symmetric and asymmetric label noise at two different ratios.
 
+
+### Symmetric Noise
 | **Dataset**      | **Method**                                                   | **Sym. (20%)** | **Sym. (40%)** |
 |-------------------|--------------------------------------------------------------|----------------|----------------|
 | **Stanford Cars** | CE+SNSCL                                                    | 83.24          | 76.72          |
@@ -61,7 +63,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 |                   | ![CYFLOD](https://img.shields.io/badge/CYFLOD-blue) (GCE + δ = 0.25) | **88.32**        | **76.50**        |
 
 
-### Test Accuracy (%) on Stanford Cars and Aircraft Data Sets with Symmetric Label Noise (η = 20% and η = 40%)
+### Table 3. Test Accuracy (%) on Stanford Cars and Aircraft Data Sets with Symmetric Label Noise (η = 20% and η = 40%)
 
 | **Data Set**       | **Loss Function** | **η = 20%** | **η = 40%** | **δ = 0.25 (η = 20%)** | **δ = 0.50 (η = 20%)** | **δ = 0.25 (η = 40%)** | **δ = 0.50 (η = 40%)** |
 |---------------------|-------------------|-------------|-------------|------------------------|------------------------|------------------------|------------------------|
@@ -76,7 +78,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 |                     | GCE              | 86.56       | 81.16       | **88.74** (+2.18)      | **88.62** (+2.06)      | **83.19** (+2.03)      | 81.69 (+0.53)          |
 |                     | MAE              | 81.43       | 71.65       | **82.32** (+0.89)      | **82.68** (+1.25)      | **75.84** (+4.19)      | **78.00** (+6.35)      |
 
-### Test Accuracy (%) on Stanford Cars and Aircraft Data Sets with Asymmetric Label Noise (η = 10% and η = 30%)
+### Table 4. Test Accuracy (%) on Stanford Cars and Aircraft Data Sets with Asymmetric Label Noise (η = 10% and η = 30%)
 
 | **Data Set**       | **Loss Function** | **η = 10%** | **η = 30%** | **δ = 0.25 (η = 10%)** | **δ = 0.50 (η = 10%)** | **δ = 0.25 (η = 30%)** | **δ = 0.50 (η = 30%)** |
 |---------------------|-------------------|-------------|-------------|------------------------|------------------------|------------------------|------------------------|
@@ -92,10 +94,19 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 |                     | MAE              | 83.05       | 60.28       | **84.45** (+1.40)      | **84.74** (+1.69)      | **62.13** (+1.85)      | **62.67** (+2.39)      |
 
 
+### Table 5. CIFAR-10 Accuracy (%) Comparison with SOTA Methods for Symmetric and Asymmetric Label Noise
+
+| **Methods**                         | **Sym. (50%)** | **Sym. (80%)** | **Asym. (40%)** |
+|-------------------------------------|----------------|----------------|-----------------|
+| MoPro[Ref](https://openreview.net/pdf/129bfcc800abbeedcdbb1bdfc2e469f06974f5a8.pdf)                                | 95.60          | 90.10          | 93.00           |
+| SLCLNL[Ref](https://openaccess.thecvf.com/content/CVPR2022/papers/He_Safe-Student_for_Safe_Deep_Semi-Supervised_Learning_With_Unseen-Class_Unlabeled_Data_CVPR_2022_paper.pdf)                               | --             | 91.13          | 93.17           |
+| SNSCL[Ref](https://openaccess.thecvf.com/content/CVPR2023/papers/Wei_Fine-Grained_Classification_With_Noisy_Labels_CVPR_2023_paper.pdf)                                | 95.20          | 91.70          | 94.90           |
+| **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (RCE + δ = 0.25) | **96.71**       | **92.25**       | **95.23**        |
+| **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (MAE + δ = 0.25) | **96.57**       | **91.86**       | **95.96**        |
+
 
 # 3.2 Food-101
-![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/ab815fff-9634-43b9-b4a9-3ee386b9dd36)
-![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/b97981e3-9d66-4bc6-830b-0721f527dad7)
+
 
 # 4.3 CIFAR-10
 ![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/cd10bf16-a2b6-4887-9ad6-5c33ef22e592)
