@@ -9,17 +9,12 @@ train the model using transfer learning: a cyclic cleansing process combined wit
 | ![Image 1](./figs/loss-damper.png) | ![Image 2](./figs/cross-entropy-damped.png) | ![Image 3](./figs/gce-damped.png) |
 |------------------------------|------------------------------|------------------------------|
 
-
-
-  <img src="![image](https://github.com/user-attachments/assets/34b787c6-f8f1-4b88-a7ae-a5b4ce1db013)" alt="Image 1" width="200"/>
-  <img src="![image](https://github.com/user-attachments/assets/34b787c6-f8f1-4b88-a7ae-a5b4ce1db013)" alt="Image 2" width="200"/>
-  <img src="p![image](https://github.com/user-attachments/assets/34b787c6-f8f1-4b88-a7ae-a5b4ce1db013)" alt="Image 3" width="200"/>
-
-
 Fig.3 Loss damping. Left: examples of loss damping functions with different $\delta$ values. Right: effect of loss damping on cross-entropy loss.
 # 3. Results
+| ![Image 1](./figs/food-101-radar) | ![Image 2](./figs/sym_cars_aircrafts_baseline_vs_cyflod.png) | ![Image 3](./figs/asym_cars_aircrafts_baseline_vs_cyflod.png) |
+|------------------------------|------------------------------|------------------------------|
 
-![image](https://github.com/GilalNauman/CYFLOD/assets/62802429/677e3b0e-3288-414a-a176-6753393f219e)
+
 
 # 3.1 Results on two Fine-grained Datasets
 We conducted extensive experiments on two fine-grained datasets, i.e., Stanford Cars and Aircraft, with a # Symmetric noise ratio of {20%. 40% }and Asymmetric noise ratios of {10%, 30%}.
