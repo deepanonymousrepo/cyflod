@@ -16,10 +16,10 @@ Fig.3 Loss damping. Left: examples of loss damping functions with different $\de
 
 | Data Set                        | Type                  | Total Images | Classes | Train  | Test   |
 |---------------------------------|-----------------------|--------------|---------|--------|--------|
-| Stanford Cars [Ref](https://cs.stanford.edu/people/karpathy/cars196/) | Fine-grained         | 16,185       | 196     | 8,144  | 8,041  |
-| Aircraft [Ref](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/)  | Fine-grained         | 10,000       | 100     | 6,667  | 3,333  |
-| CIFAR-10 [Ref](https://www.cs.toronto.edu/~kriz/cifar.html)          | Generic              | 60,000       | 10      | 50,000 | 10,000 |
-| Food-101 [Ref](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/) | Real-world Noisy     | 101,000      | 101     | 75,750 | 25,250 |
+| Stanford Cars [[Ref]](https://cs.stanford.edu/people/karpathy/cars196/) | Fine-grained         | 16,185       | 196     | 8,144  | 8,041  |
+| Aircraft [[Ref]](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/)  | Fine-grained         | 10,000       | 100     | 6,667  | 3,333  |
+| CIFAR-10 [[Ref]](https://www.cs.toronto.edu/~kriz/cifar.html)          | Generic              | 60,000       | 10      | 50,000 | 10,000 |
+| Food-101 [[Ref]](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/) | Real-world Noisy     | 101,000      | 101     | 75,750 | 25,250 |
 
 
 | ![Image 1](./figs/food-101-radar.png) | ![Image 2](./figs/sym_cars_aircrafts_baseline_vs_cyflod.png) | ![Image 3](./figs/asym_cars_aircrafts_baseline_vs_cyflod.png) |
