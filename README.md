@@ -11,7 +11,7 @@ train the model using transfer learning: a cyclic cleansing process combined wit
 
 Fig.3 Loss damping. Left: examples of loss damping functions with different $\delta$ values. Right: effect of loss damping on cross-entropy loss.
 # 3. Results
-| ![Image 1](./figs/food-101-radar) | ![Image 2](./figs/sym_cars_aircrafts_baseline_vs_cyflod.png) | ![Image 3](./figs/asym_cars_aircrafts_baseline_vs_cyflod.png) |
+| ![Image 1](./figs/food-101-radar.png) | ![Image 2](./figs/sym_cars_aircrafts_baseline_vs_cyflod.png) | ![Image 3](./figs/asym_cars_aircrafts_baseline_vs_cyflod.png) |
 |------------------------------|------------------------------|------------------------------|
 
 
