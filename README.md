@@ -131,6 +131,20 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 | GCE                | 93.50                   | 90.43                   | **94.19** (+0.69)       | **91.25** (+0.82)       | 88.64                   | **88.71** (+0.07)       |
 | MAE                | 94.61                   | 89.28                   | **96.57** (+1.96)       | **91.86** (+2.58)       | 94.65                   | **95.96** (+1.31)       |
 
+### Table 8. Food-101 Accuracy (%) Comparison with SOTA Methods
+| **Method**                           | **Accuracy (%)** |
+|--------------------------------------|------------------|
+| CleanNet                             | 83.47           |
+| MWNet                                | 84.72           |
+| NRank                                | 85.20           |
+| SMP                                  | 85.11           |
+| PLC                                  | 85.28           |
+| WarPI                                | 85.91           |
+| CE+SNSCL                             | 85.44           |
+| DivideMix                            | 85.88           |
+| DivideMix+SNSCL                      | 86.40           |
+| **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (SCE + δ = 0.5) | **88.50**       |
+
 
 
 # 5. How to Run the code ....
