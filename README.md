@@ -104,6 +104,22 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (RCE + δ = 0.25) | **96.71**       | **92.25**       | **95.23**        |
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (MAE + δ = 0.25) | **96.57**       | **91.86**       | **95.96**        |
 
+Table 6. CIFAR-10 F1 Score Comparison for CYFLOD and Recent Methods with Symmetric (60%) and Asymmetric (30%) Noise
+
+| **Noise Type**                     | **Sym. (60%)**          | **Asym. (30%)**         |
+|------------------------------------|-------------------------|-------------------------|
+| Avg. Encoder                       | 94.1 ± 0.14            | 85.4 ± 0.19            |
+| AUM                                | 75.4 ± 0.22            | 46.4 ± 0.30            |
+| CL                                 | 88.7 ± 0.56            | 91.9 ± 0.12            |
+| CORES                              | 92.9 ± 0.17            | 26.7 ± 0.44            |
+| SIMIFEAT-V                         | **94.6 ± 0.06**         | 84.7 ± 0.17            |
+| SIMIFEAT-R                         | 92.9 ± 1.84            | 84.0 ± 0.13            |
+| DynaCor                            | 93.6 ± 0.18            | 94.2 ± 0.45            |
+| **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (EfficientNet-B4+CE + δ=0.25) | 93.66                  | **96.21**              |
+| **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (EfficientNet-B4+MAE + δ=0.25) | **95.71**              | **96.31**              |
+| **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (EfficientNet-B4+RCE + δ=0.25) | **95.56**              | **96.81**              |
+| **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (ResNet-34+RCE + δ=0.25)       | 94.15                  | 93.80                  |
+
 
 # 3.2 Food-101
 
