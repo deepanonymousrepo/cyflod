@@ -11,6 +11,17 @@ train the model using transfer learning: a cyclic cleansing process combined wit
 
 Fig.3 Loss damping. Left: examples of loss damping functions with different $\delta$ values. Right: effect of loss damping on cross-entropy loss.
 # 3. Results
+
+### Table: Data sets used in this study
+
+| Data Set                        | Type                  | Total Images | Classes | Train  | Test   |
+|---------------------------------|-----------------------|--------------|---------|--------|--------|
+| Stanford Cars [Ref](https://cs.stanford.edu/people/karpathy/cars196/) | Fine-grained         | 16,185       | 196     | 8,144  | 8,041  |
+| Aircraft [Ref](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/)  | Fine-grained         | 10,000       | 100     | 6,667  | 3,333  |
+| CIFAR-10 [Ref](https://www.cs.toronto.edu/~kriz/cifar.html)          | Generic              | 60,000       | 10      | 50,000 | 10,000 |
+| Food-101 [Ref](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/) | Real-world Noisy     | 101,000      | 101     | 75,750 | 25,250 |
+
+
 | ![Image 1](./figs/food-101-radar.png) | ![Image 2](./figs/sym_cars_aircrafts_baseline_vs_cyflod.png) | ![Image 3](./figs/asym_cars_aircrafts_baseline_vs_cyflod.png) |
 |------------------------------|------------------------------|------------------------------|
 
@@ -19,7 +30,7 @@ Fig.3 Loss damping. Left: examples of loss damping functions with different $\de
 # 3.1 Results on two Fine-grained Datasets
 We conducted extensive experiments on two fine-grained datasets, i.e., Stanford Cars and Aircraft, with a # Symmetric noise ratio of {20%. 40% }and Asymmetric noise ratios of {10%, 30%}.
 
-### Symmetric Noise
+### Test accuracy comparison (\%) with recent SOTA SNSCL[Ref](https://openaccess.thecvf.com/content/CVPR2023/papers/Wei_Fine-Grained_Classification_With_Noisy_Labels_CVPR_2023_paper.pdf) on Stanford Cars, and Aircraft datasets, for both \textit{symmetric} and \textit{asymmetric} label noise at two different ratios.
 
 | **Dataset**      | **Method**                                                   | **Sym. (20%)** | **Sym. (40%)** |
 |-------------------|--------------------------------------------------------------|----------------|----------------|
