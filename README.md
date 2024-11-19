@@ -154,23 +154,16 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 | DivideMix+SNSCL                      | 86.40           |
 
 
-
+**Figure 5. Baseline vs CLYLOD: Comparison of Baseline vs CYFLOD on Stanford Cars and Aircraft datasets under Symmetric noise settings ($\eta=20\%$ and $\eta=40\%$).**
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (SCE + δ = 0.5) | **88.50**       |
 
-\begin{figure*}[!ht]
-\centering
-\includegraphics[width = 0.99\textwidth]{cvpr-2025/figs/sym_cars_aircrafts_baseline_vs_cyflod.png}
-\caption{\textbf{Baseline vs CLYLOD.} Comparison of Baseline vs CYFLOD on Stanford Cars and Aircraft datasets under Symmetric noise settings ($\eta=20\%$ and $\eta=40\%$).}
-\label{fig:sym_cars_air}
-\end{figure*}
-%
+
 \begin{figure*}[!ht]
 \centering
 \includegraphics[width = 0.99\textwidth]{cvpr-2025/figs/asym_cars_aircrafts_baseline_vs_cyflod.png}
 \caption{\textbf{Baseline vs CLYLOD.} Comparison of Baseline vs CYFLOD on Stanford Cars and Aircraft datasets under asymmetric noise settings($\eta=10\%$ and $\eta=30\%$).}
 \label{fig:asym_cars_air}
 \end{figure*}
-
 # 5. How to Run the code ....
 PyTorch Implementation of CYFLOD
 
