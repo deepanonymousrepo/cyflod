@@ -106,7 +106,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 \label{fig:asym_cars_air**
 
 ![Image 2](./figs/sym_cars_aircrafts_baseline_vs_cyflod.png) 
-# 4.2 CIFAR-10
+# 3.2 CIFAR-10
 ### Table 5. CIFAR-10 Accuracy (%) Comparison with SOTA Methods for Symmetric and Asymmetric Label Noise
 
 | **Methods**                         | **Sym. (50%)** | **Sym. (80%)** | **Asym. (40%)** |
@@ -133,7 +133,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (EfficientNet-B4+RCE + δ=0.25) | **95.56**              | **96.81**              |
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (ResNet-34+RCE + δ=0.25)       | 94.15                  | 93.80                  |
 
-# 3.2 Food-101
+# 3.3 Food-101
 ### Table 7. Baseline Vs. CYFLOD: Test Accuracy (%) on CIFAR-10 Dataset with Symmetric and Asymmetric Label Noise.
 | **Loss Function** | **Sym. (50%) Baseline** | **Sym. (80%) Baseline** | **Sym. (50%, δ = 0.25)** | **Sym. (80%, δ = 0.25)** | **Asym. (40%) Baseline** | **Asym. (40%, δ = 0.25)** |
 |--------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|
