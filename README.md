@@ -167,23 +167,26 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 
 
 # 4. t-SNE Visualization
+
+![Image 2](./figs/tsne_vis_noise_rate_50_sym.png)
+
 **Figure 7. t-SNE Visualizations under 50\% symmetric Noise: Feature embeddings of the CIFAR-10 data set. This visualization showcases the clustering of classes and the improved discriminative feature learning when trained with the CYFLOD strategy.**
 
-![Image 2](./figs/![Image 2](./figs/tsne_vis_noise_rate_50_sym.png)
+
+
+![Image 2](./figs/tsne_vis_noise_ratio_80_sym.png)
 
 **Figure 8. t-SNE Visualization under 80\% symmetric Noise.} Feature embeddings of the CIFAR-10 data set.**
-![Image 2](./figs/![Image 2](./figs/tsne_vis_noise_ratio_80_sym.png)
 
-
-# CYFLOD: PyTorch Implementation
+# 5. CYFLOD: PyTorch Implementation
 
 CYFLOD is a PyTorch-based framework designed for experimenting with noisy datasets and evaluating different loss functions. This repository provides tools for generating noisy labels, training models, and assessing performance on benchmark datasets.
 
 ---
 
-## 5. How to Run the Code
+## 5.1 How to Run the Code
 
-### 5.1. Environment Settings
+### 5.2. Environment Settings
 Ensure the following dependencies are installed to run the project successfully:
 - **Python**: 3.8
 - **PyTorch**: 1.11
@@ -210,7 +213,7 @@ Ensure the following dependencies are installed to run the project successfully:
 
 ---
 
-### 5.2. Dataset
+### 5.3. Dataset
 We conducted experiments on the following datasets. While we provide code for the **Aircraft** dataset, you can download other datasets and integrate them with our code to test various loss functions.
 
 - **Stanford Car**: [Download here](https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset)
