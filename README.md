@@ -22,14 +22,16 @@
 | Food-101 [[Ref]](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/) | Real-world Noisy     | 101,000      | 101     | 75,750 | 25,250 |
 
 
-**Figure 4. Test Accuracy (%) by Data Set. Left: CYFLOD vs. prior art, including the SOTA framework SNSCL [65], on the fine-grained
-and noisy dataset Food-101 (noise ratio η ≈ 20%). Center: baseline vs. CYFLOD across different loss functions (CE, SCE, RCE, GCE,
-MAE), illustrating accuracy variations on Stanford Cars and Aircraft datasets, symmetric noise η = {20%, 40%} and δ = {0.25, 0.50}.
-Right: Same baseline vs. CYFLOD, same losses, and same δ values, but for asymmetric noise η = {10%, 30%}.**
+
 
 | ![Image 1](./figs/food-101-radar.png) | ![Image 2](./figs/sym_cars_aircrafts_baseline_vs_cyflod.png) | ![Image 3](./figs/asym_cars_aircrafts_baseline_vs_cyflod.png) |
 |------------------------------|------------------------------|------------------------------|
 
+
+**Figure 4. Test Accuracy (%) by Data Set. Left: CYFLOD vs. prior art, including the SOTA framework SNSCL [65], on the fine-grained
+and noisy dataset Food-101 (noise ratio η ≈ 20%). Center: baseline vs. CYFLOD across different loss functions (CE, SCE, RCE, GCE,
+MAE), illustrating accuracy variations on Stanford Cars and Aircraft datasets, symmetric noise η = {20%, 40%} and δ = {0.25, 0.50}.
+Right: Same baseline vs. CYFLOD, same losses, and same δ values, but for asymmetric noise η = {10%, 30%}.**
 
 # 3.1 Results on two Fine-grained Datasets
 We conducted extensive experiments on two fine-grained datasets, i.e., Stanford Cars and Aircraft, with a # Symmetric noise ratio of {20%. 40% }and Asymmetric noise ratios of {10%, 30%}.
