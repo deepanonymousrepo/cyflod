@@ -224,8 +224,3 @@ To simulate noise in your dataset, use the `noise_generator.py` script:
 
 ```bash
 python noise_generator.py --datasetpath ./data/aircraft --noiseratio 0.2 --noisetype sym
-
-
-Cite
-
-On publish ....
