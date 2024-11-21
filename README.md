@@ -9,6 +9,7 @@
 | ![Image 1](./figs/loss-damper.png) | ![Image 2](./figs/cross-entropy-damped.png) | ![Image 3](./figs/gce-damped.png) |
 |------------------------------|------------------------------|------------------------------|
 
+---
 **Figure 3. Loss damping. Left: examples of loss damping functions with different $\delta$ values. Right: effect of loss damping on cross-entropy loss.**
 # 3. Results
 
@@ -64,7 +65,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 |                   | DivideMix+SNSCL                                             | 84.17           | 80.55           |
 |                   | ![CYFLOD](https://img.shields.io/badge/CYFLOD-blue) (GCE + δ = 0.25) | **88.32**        | **76.50**        |
 
-
+---
 ### Table 3. Test Accuracy (%) on Stanford Cars and Aircraft Data Sets with Symmetric Label Noise (η = 20% and η = 40%)
 
 | **Data Set**       | **Loss Function** | **η = 20%** | **η = 40%** | **δ = 0.25 (η = 20%)** | **δ = 0.50 (η = 20%)** | **δ = 0.25 (η = 40%)** | **δ = 0.50 (η = 40%)** |
@@ -80,6 +81,8 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 |                     | GCE              | 86.56       | 81.16       | **88.74** (+2.18)      | **88.62** (+2.06)      | **83.19** (+2.03)      | 81.69 (+0.53)          |
 |                     | MAE              | 81.43       | 71.65       | **82.32** (+0.89)      | **82.68** (+1.25)      | **75.84** (+4.19)      | **78.00** (+6.35)      |
 
+
+---
 ### Table 4. Test Accuracy (%) on Stanford Cars and Aircraft Data Sets with Asymmetric Label Noise (η = 10% and η = 30%)
 
 | **Data Set**       | **Loss Function** | **η = 10%** | **η = 30%** | **δ = 0.25 (η = 10%)** | **δ = 0.50 (η = 10%)** | **δ = 0.25 (η = 30%)** | **δ = 0.50 (η = 30%)** |
@@ -95,7 +98,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 |                     | GCE              | 86.20       | 74.89       | **88.32** (+2.12)      | **87.90** (+1.70)      | **76.50** (+1.61)      | 70.11                  |
 |                     | MAE              | 83.05       | 60.28       | **84.45** (+1.40)      | **84.74** (+1.69)      | **62.13** (+1.85)      | **62.67** (+2.39)      |
 
-
+---
 
 ![Image 2](./figs/asym_cars_aircrafts_baseline_vs_cyflod.png)
 
@@ -118,6 +121,8 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (RCE + δ = 0.25) | **96.71**       | **92.25**       | **95.23**        |
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (MAE + δ = 0.25) | **96.57**       | **91.86**       | **95.96**        |
 
+
+---
 ### Table 6. CIFAR-10 F1 Score Comparison for CYFLOD and Recent Methods with Symmetric (60%) and Asymmetric (30%) Noise
 
 | **Noise Type**                     | **Sym. (60%)**          | **Asym. (30%)**         |
