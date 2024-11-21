@@ -182,7 +182,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 
 # 5. CYFLOD: PyTorch Implementation
 
-CYFLOD is a PyTorch-based framework designed for experimenting with noisy datasets and evaluating different loss functions. This repository provides tools for generating noisy labels, training models, and assessing performance on benchmark datasets.
+CYFLOD is a PyTorch-based framework designed for experimenting with noisy datasets and evaluating different loss functions including CE, SCE, RCE, GCE, and MAE. This repository provides tools for generating noisy labels, training models, and assessing performance on benchmark datasets.
 
 ---
 
@@ -233,4 +233,4 @@ Once downloaded, ensure the datasets are properly structured and update the `--d
 To simulate noise in your dataset, use the `noise_generator.py` script:
 
 ```bash
-python noise_generator.py --datasetpath ./data/aircraft --noiseratio 0.2 --noisetype sym
+python noise_generator.py --datasetpath [dataset_path] --noiseratio [0.1, 0.2, 0.3, 0.40, 0.50, 0.60, 0.80] --noisetype [asym, sym]
