@@ -170,33 +170,60 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 ![Image 2](./figs/![Image 2](./figs/tsne_vis_noise_ratio_80_sym.png)
 
 
-# 5. How to Run the code ....
-PyTorch Implementation of CYFLOD
+# CYFLOD: PyTorch Implementation
 
-# 5.1. Environment settings
+CYFLOD is a PyTorch-based framework designed for experimenting with noisy datasets and evaluating different loss functions. This repository provides tools for generating noisy labels, training models, and assessing performance on benchmark datasets.
 
-Python 3.8, Pytorch 1.11, CUDA 11.1, Torchvision 12.2
+---
 
-# 5.2. Dataset
+## 5. How to Run the Code
 
-   Data considered in this study, you can download the dataset from original source as provided below.
+### 5.1. Environment Settings
+Ensure the following dependencies are installed to run the project successfully:
+- **Python**: 3.8
+- **PyTorch**: 1.11
+- **CUDA**: 11.1
+- **Torchvision**: 0.12.2
 
-   Stanford Car: https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset
-   
-   Aircraft: https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/
-   
-   CIFAR-10: https://www.cs.toronto.edu/~kriz/cifar.html
-   
-   Food-101: https://vision.ee.ethz.ch/datasets_extra/food-101/
+**Steps to set up the environment**:
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/deepanonymousrepo/cyflod.git
+    cd cyflod
+    ```
 
-# 6. Training
-To generate noise:
+2. Create a Python virtual environment:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows, use venv\Scripts\activate
+    ```
 
-python noise_generator.py --datasetpath {car, aircraft, cifar10, Food-101} --noiseratio {0.1,0.2,0.3, ..., 0.80} --noisetype {sym,asym}
+3. Install the required Python packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Different losses implementation with Dump is given  in dumped-losses.py
+---
 
-You can import the losses file in the main notebook, run and enjoy......
+### 5.2. Dataset
+We conducted experiments on the following datasets. While we provide code for the **Aircraft** dataset, you can download other datasets and integrate them with our code to test various loss functions.
+
+- **Stanford Car**: [Download here](https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset)
+- **Aircraft**: [Download here](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/)
+- **CIFAR-10**: [Download here](https://www.cs.toronto.edu/~kriz/cifar.html)
+- **Food-101**: [Download here](https://vision.ee.ethz.ch/datasets_extra/food-101/)
+
+Once downloaded, ensure the datasets are properly structured and update the `--datasetpath` parameter when running scripts.
+
+---
+
+## 6. Training
+
+### 6.1. Noise Generation
+To simulate noise in your dataset, use the `noise_generator.py` script:
+
+```bash
+python noise_generator.py --datasetpath ./data/aircraft --noiseratio 0.2 --noisetype sym
 
 
 Cite
