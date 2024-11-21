@@ -211,7 +211,7 @@ We conducted experiments on the following datasets. While we provide code for th
 - **Stanford Car**: [Download here](https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset)
 - **Aircraft**: [Download here](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/)
 - **CIFAR-10**: [Download here](https://www.cs.toronto.edu/~kriz/cifar.html)
-- **Food-101**: [Download here]([https://vision.ee.ethz.ch/datasets_extra/food-101/](https://www.kaggle.com/datasets/dansbecker/food-101))
+- **Food-101**: [Download here](https://www.kaggle.com/datasets/dansbecker/food-101)
 
 Once downloaded, ensure the datasets are properly structured and update the `--datasetpath` parameter when running scripts.
 
