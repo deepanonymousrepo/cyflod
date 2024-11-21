@@ -99,15 +99,18 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 |                     | GCE              | 86.20       | 74.89       | **88.32** (+2.12)      | **87.90** (+1.70)      | **76.50** (+1.61)      | 70.11                  |
 |                     | MAE              | 83.05       | 60.28       | **84.45** (+1.40)      | **84.74** (+1.69)      | **62.13** (+1.85)      | **62.67** (+2.39)      |
 
-**Figure 5. Baseline vs CLYLOD: Comparison of Baseline vs CYFLOD on Stanford Cars and Aircraft datasets under Symmetric noise settings ($\eta=20\%$ and $\eta=40\%$).**
+
 
 ![Image 2](./figs/asym_cars_aircrafts_baseline_vs_cyflod.png)
 
+**Figure 5. Baseline vs CLYLOD: Comparison of Baseline vs CYFLOD on Stanford Cars and Aircraft datasets under Symmetric noise settings ($\eta=20\%$ and $\eta=40\%$).**
 
-**Figure 6. Baseline vs CLYLOD.} Comparison of Baseline vs CYFLOD on Stanford Cars and Aircraft datasets under asymmetric noise settings($\eta=10\%$ and $\eta=30\%$).}
-\label{fig:asym_cars_air**
 
 ![Image 2](./figs/sym_cars_aircrafts_baseline_vs_cyflod.png) 
+
+**Figure 6. Baseline vs CLYLOD. Comparison of Baseline vs CYFLOD on Stanford Cars and Aircraft datasets under asymmetric noise settings($\eta=10\%$ and $\eta=30\%$).**
+
+
 # 3.2 CIFAR-10
 ### Table 5. CIFAR-10 Accuracy (%) Comparison with SOTA Methods for Symmetric and Asymmetric Label Noise
 
