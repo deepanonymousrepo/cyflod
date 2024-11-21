@@ -31,7 +31,7 @@
 
 **Figure 4. Test Accuracy (%) by Data Set. Left: CYFLOD vs. prior art, including the SOTA framework SNSCL [65], on the fine-grained and noisy dataset Food-101 (noise ratio η ≈ 20%). Center: baseline vs. CYFLOD across different loss functions (CE, SCE, RCE, GCE, MAE), illustrating accuracy variations on Stanford Cars and Aircraft datasets, symmetric noise η = {20%, 40%} and δ = {0.25, 0.50}. Right: Same baseline vs. CYFLOD, same losses, and same δ values, but for asymmetric noise η = {10%, 30%}.**
 
-# 3.1 Results on two Fine-grained Datasets
+# 3.1. Results on two Fine-grained Datasets
 We conducted extensive experiments on two fine-grained datasets, i.e., Stanford Cars and Aircraft, with a # Symmetric noise ratio of {20%. 40% }and Asymmetric noise ratios of {10%, 30%}.
 
 ### Table 2. Test accuracy comparison (\%) with recent SOTA SNSCL[[Ref]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wei_Fine-Grained_Classification_With_Noisy_Labels_CVPR_2023_paper.pdf) on Stanford Cars, and Aircraft datasets, for both symmetric and asymmetric label noise at two different ratios.
@@ -111,7 +111,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 **Figure 6. Baseline vs CLYLOD. Comparison of Baseline vs CYFLOD on Stanford Cars and Aircraft datasets under asymmetric noise settings($\eta=10\%$ and $\eta=30\%$).**
 
 
-# 3.2 CIFAR-10
+# 3.2. CIFAR-10
 ### Table 5. CIFAR-10 Accuracy (%) Comparison with SOTA Methods for Symmetric and Asymmetric Label Noise
 
 | **Methods**                         | **Sym. (50%)** | **Sym. (80%)** | **Asym. (40%)** |
@@ -151,7 +151,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 | MAE                | 94.61                   | 89.28                   | **96.57** (+1.96)       | **91.86** (+2.58)       | 94.65                   | **95.96** (+1.31)       |
 
 
-# 3.3 Food-101
+# 3.3. Food-101
 
 ### Table 8. Food-101 Accuracy (%) Comparison with SOTA Methods
 | **Method**                           | **Accuracy (%)** |
