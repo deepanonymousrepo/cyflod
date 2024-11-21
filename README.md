@@ -133,7 +133,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (EfficientNet-B4+RCE + δ=0.25) | **95.56**              | **96.81**              |
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (ResNet-34+RCE + δ=0.25)       | 94.15                  | 93.80                  |
 
-# 3.3 Food-101
+
 ### Table 7. Baseline Vs. CYFLOD: Test Accuracy (%) on CIFAR-10 Dataset with Symmetric and Asymmetric Label Noise.
 | **Loss Function** | **Sym. (50%) Baseline** | **Sym. (80%) Baseline** | **Sym. (50%, δ = 0.25)** | **Sym. (80%, δ = 0.25)** | **Asym. (40%) Baseline** | **Asym. (40%, δ = 0.25)** |
 |--------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|
@@ -142,6 +142,9 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 | RCE                | 94.62                   | 90.25                   | **96.71** (+2.09)       | **92.25** (+2.00)       | 94.05                   | **95.23** (+1.18)       |
 | GCE                | 93.50                   | 90.43                   | **94.19** (+0.69)       | **91.25** (+0.82)       | 88.64                   | **88.71** (+0.07)       |
 | MAE                | 94.61                   | 89.28                   | **96.57** (+1.96)       | **91.86** (+2.58)       | 94.65                   | **95.96** (+1.31)       |
+
+
+# 3.3 Food-101
 
 ### Table 8. Food-101 Accuracy (%) Comparison with SOTA Methods
 | **Method**                           | **Accuracy (%)** |
