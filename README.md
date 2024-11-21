@@ -21,17 +21,13 @@
 | CIFAR-10 [[Ref]](https://www.cs.toronto.edu/~kriz/cifar.html)          | Generic              | 60,000       | 10      | 50,000 | 10,000 |
 | Food-101 [[Ref]](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/) | Real-world Noisy     | 101,000      | 101     | 75,750 | 25,250 |
 
-
-
+---
 
 | ![Image 1](./figs/food-101-radar.png) | ![Image 2](./figs/sym_cars_aircrafts_baseline_vs_cyflod.png) | ![Image 3](./figs/asym_cars_aircrafts_baseline_vs_cyflod.png) |
 |------------------------------|------------------------------|------------------------------|
 
 
-**Figure 4. Test Accuracy (%) by Data Set. Left: CYFLOD vs. prior art, including the SOTA framework SNSCL [65], on the fine-grained
-and noisy dataset Food-101 (noise ratio η ≈ 20%). Center: baseline vs. CYFLOD across different loss functions (CE, SCE, RCE, GCE,
-MAE), illustrating accuracy variations on Stanford Cars and Aircraft datasets, symmetric noise η = {20%, 40%} and δ = {0.25, 0.50}.
-Right: Same baseline vs. CYFLOD, same losses, and same δ values, but for asymmetric noise η = {10%, 30%}.**
+**Figure 4. Test Accuracy (%) by Data Set. Left: CYFLOD vs. prior art, including the SOTA framework SNSCL [65], on the fine-grained and noisy dataset Food-101 (noise ratio η ≈ 20%). Center: baseline vs. CYFLOD across different loss functions (CE, SCE, RCE, GCE, MAE), illustrating accuracy variations on Stanford Cars and Aircraft datasets, symmetric noise η = {20%, 40%} and δ = {0.25, 0.50}. Right: Same baseline vs. CYFLOD, same losses, and same δ values, but for asymmetric noise η = {10%, 30%}.**
 
 # 3.1 Results on two Fine-grained Datasets
 We conducted extensive experiments on two fine-grained datasets, i.e., Stanford Cars and Aircraft, with a # Symmetric noise ratio of {20%. 40% }and Asymmetric noise ratios of {10%, 30%}.
@@ -105,7 +101,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 
 **Figure 5. Baseline vs CLYLOD: Comparison of Baseline vs CYFLOD on Stanford Cars and Aircraft datasets under Symmetric noise settings ($\eta=20\%$ and $\eta=40\%$).**
 
-
+---
 ![Image 2](./figs/sym_cars_aircrafts_baseline_vs_cyflod.png) 
 
 **Figure 6. Baseline vs CLYLOD. Comparison of Baseline vs CYFLOD on Stanford Cars and Aircraft datasets under asymmetric noise settings($\eta=10\%$ and $\eta=30\%$).**
@@ -137,7 +133,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (EfficientNet-B4+MAE + δ=0.25) | **95.71**              | **96.31**              |
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (EfficientNet-B4+RCE + δ=0.25) | **95.56**              | **96.81**              |
 | **![CYFLOD](https://img.shields.io/badge/CYFLOD-blue)** (ResNet-34+RCE + δ=0.25)       | 94.15                  | 93.80                  |
-
+---
 
 ### Table 7. Baseline Vs. CYFLOD: Test Accuracy (%) on CIFAR-10 Dataset with Symmetric and Asymmetric Label Noise.
 | **Loss Function** | **Sym. (50%) Baseline** | **Sym. (80%) Baseline** | **Sym. (50%, δ = 0.25)** | **Sym. (80%, δ = 0.25)** | **Asym. (40%) Baseline** | **Asym. (40%, δ = 0.25)** |
@@ -172,7 +168,7 @@ We conducted extensive experiments on two fine-grained datasets, i.e., Stanford 
 
 **Figure 7. t-SNE Visualizations under 50\% symmetric Noise: Feature embeddings of the CIFAR-10 data set. This visualization showcases the clustering of classes and the improved discriminative feature learning when trained with the CYFLOD strategy.**
 
-
+---
 
 ![Image 2](./figs/tsne_vis_noise_ratio_80_sym.png)
 
